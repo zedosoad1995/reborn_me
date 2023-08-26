@@ -70,7 +70,7 @@ export const getRarity = (targetCountry: string, data: [string, number][]) => {
     "Common",
     "Uncommon",
     "Rare",
-    "Very Rate",
+    "Very Rare",
     "Legendary",
     "Mystic",
     "Impossible",
