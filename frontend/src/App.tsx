@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="h-full p-6">
       <div className="h-full flex items-center justify-center flex-col">
-        <div className="text-3xl mb-6">You will be reborn in</div>
+        <div className="text-3xl mb-2">You will be reborn in</div>
         <div className="text-2xl text-[#1D75F3] min-h-[32px] font-bold">{country}</div>
         <div className="min-h-[24px]">You had a {rate} chance</div>
         <div className="min-h-[24px]">
