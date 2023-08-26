@@ -100,7 +100,7 @@ function App() {
     <div className="h-full p-6">
       <div className="h-full flex items-center justify-center flex-col">
         <div className="text-3xl mb-2">You will be reborn in</div>
-        <div className="text-2xl text-[#ed143d] min-h-[32px] font-bold">{country}</div>
+        <div className="text-2xl text-[#ed143d] min-h-[32px] font-bold text-center">{country}</div>
         <div className="min-h-[24px]">
           You had a {rate} chance (Rarity: {rarity})
         </div>
