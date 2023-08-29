@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { getRandomCountry } from "./Util/randomBirth";
+import { getRandomWealth } from "./Util/randomWealth";
 
 const GENDERS = [
   "Acault",
@@ -90,6 +91,7 @@ function App() {
 
   useEffect(() => {
     getRandomCountry().then(({ country, rate, rarity }) => {
+      getRandomWealth(country).then(console.log);
       setCountry(country);
       setRarity(rarity);
       setRate((rate * 100).toPrecision(2) + "%");
