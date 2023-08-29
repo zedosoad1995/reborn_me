@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { getRandomCountry } from "./Util/randomBirth";
 import { getRandomWealth } from "./Util/randomWealth";
+import { parsePercentile } from "./Util/parse";
 
 const GENDERS = [
   "Acault",
@@ -90,12 +91,14 @@ function App() {
   const [rarity, setRarity] = useState<string>();
   const [wealth, setWealth] = useState<string>();
   const [wealthPerc, setWealthPerc] = useState<string>();
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     getRandomCountry().then(({ country, rate, rarity }) => {
       getRandomWealth(country).then(({ wealth, perc }) => {
-        setWealth("$" + wealth.toFixed(1));
-        setWealthPerc((perc * 100).toPrecision(3) + "%");
+        setWealth("$" + Math.round(wealth).toLocaleString());
+        setWealthPerc(parsePercentile(perc));
+        setIsLoading(false);
       });
 
       setCountry(country);
@@ -107,17 +110,26 @@ function App() {
   return (
     <div className="h-full p-6">
       <div className="h-full flex items-center justify-center flex-col">
-        <div className="text-3xl mb-2">You will be reborn in</div>
-        <div className="text-2xl text-[#ed143d] min-h-[32px] font-bold text-center">{country}</div>
-        <div className="min-h-[24px]">
-          You had a {rate} chance (Rarity: {rarity})
-        </div>
-        <div className="min-h-[24px] mt-2">
-          <span className="font-bold">Wealth:</span> {wealth} ({wealthPerc})
-        </div>
-        <div className="min-h-[24px] mt-2">
-          <span className="font-bold">Gender:</span> {gender}
-        </div>
+        <div className="text-3xl mb-2 text-center">You will be reborn in</div>
+        {isLoading && <div className="h-[120px]"></div>}
+        {!isLoading && (
+          <>
+            <div className="text-2xl text-[#ed143d] min-h-[32px] font-bold text-center">
+              {country}
+            </div>
+            <div className="min-h-[24px] text-center text-sm">
+              You had a {rate} chance (Rarity: {rarity})
+            </div>
+            <div className="mt-6 w-full bg-[#ffffff20] py-4 px-4 max-w-[500px]">
+              <div className="min-h-[24px]">
+                <span className="font-bold">Wealth:</span> {wealth} ({wealthPerc})
+              </div>
+              <div className="min-h-[24px] mt-2">
+                <span className="font-bold">Gender:</span> {gender}
+              </div>
+            </div>
+          </>
+        )}
       </div>
     </div>
   );
