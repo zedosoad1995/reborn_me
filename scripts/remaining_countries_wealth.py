@@ -22,7 +22,7 @@ with open('data/remaining_countries_wealth.csv', 'r') as csvfile:
 
 params_save = []
 
-for country in countries[1:]:
+for country in countries:
     print(country[0])
 
     mean = float(country[1])
