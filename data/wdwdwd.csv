@@ -1,3 +1,242 @@
+Country,Num of Births
+India,23114000
+China,10881567
+Nigeria,7923294
+Pakistan,6374741
+Indonesia,4496383
+Democratic Republic of the Congo,4034953
+Ethiopia,3895734
+United States,3722822
+Bangladesh,3019672
+Brazil,2760958
+Philippines,2485008
+Egypt,2465005
+Tanzania,2303114
+Mexico,1882362
+Uganda,1686795
+Sudan,1534332
+Kenya,1468358
+Vietnam,1462623
+Afghanistan,1440941
+Russia,1397456
+Angola,1338792
+Turkey,1244782
+Iran,1204105
+Iraq,1192345
+South Africa,1176955
+Mozambique,1174346
+Niger,1144371
+Yemen,1008936
+Algeria,950888
+Cameroon,950546
+Ivory Coast,932943
+Myanmar,920395
+Mali,912901
+Ghana,904679
+Madagascar,895045
+Japan,818509
+Uzbekistan,802875
+Burkina Faso,785817
+Germany,763168
+Chad,744834
+Somalia,743932
+Colombia,730203
+France,677303
+United Kingdom,677219
+Zambia,672000
+Malawi,653703
+Morocco,650892
+Thailand,644325
+Argentina,629391
+Saudi Arabia,629339
+Nepal,609790
+Peru,593523
+Senegal,549984
+Malaysia,511313
+Zimbabwe,488807
+Benin,475832
+Guinea,465954
+Venezuela,451855
+Burundi,437599
+Syria,426856
+Kazakhstan,413483
+Italy,410487
+Rwanda,403681
+Ukraine,380763
+Canada,373728
+Guatemala,372146
+Poland,363427
+Spain,357652
+North Korea,343885
+Cambodia,320934
+South Sudan,313347
+Sri Lanka,305877
+Ecuador,298989
+Australia,298496
+South Korea,289006
+Togo,275435
+Haiti,269377
+Sierra Leone,264106
+Bolivia,263820
+Tajikistan,260838
+Papua New Guinea,253720
+Jordan,244557
+Central African Republic,234821
+Chile,229116
+Honduras,216645
+Dominican Republic,205050
+Tunisia,197396
+Romania,195366
+Taiwan,185885
+Netherlands,180273
+Republic of the Congo,179193
+Israel,174335
+Laos,163261
+Liberia,162685
+Kyrgyzstan,157661
+Mauritania,153242
+Palestine,145128
+Nicaragua,140589
+Paraguay,138365
+Turkmenistan,136968
+Azerbaijan,127085
+Libya,120072
+Belgium,116448
+Sweden,113322
+Czech Republic,103948
+Eritrea,103861
+El Salvador,101405
+Cuba,100445
+United Arab Emirates,96536
+Hungary,91895
+Belarus,88853
+Gambia,87840
+Switzerland,87086
+Austria,84647
+Lebanon,84450
+Oman,83496
+Portugal,80480
+Greece,79072
+Panama,76933
+Mongolia,71668
+Namibia,69486
+Serbia,67609
+Guinea-Bissau,64086
+New Zealand,63557
+Gabon,63525
+Denmark,63148
+Costa Rica,61176
+Botswana,60999
+Lesotho,59581
+Ireland,58563
+Bulgaria,58112
+Slovakia,54351
+Norway,53868
+Georgia,50430
+Equatorial Guinea,49749
+Finland,46891
+Kuwait,44412
+Hong Kong,42908
+Singapore,42215
+Moldova,38146
+Uruguay,35892
+Croatia,34733
+Armenia,33700
+Jamaica,33150
+Timor-Leste,32976
+Albania,29289
+Eswatini,28831
+Bosnia and Herzegovina,27646
+Lithuania,26862
+Puerto Rico,26548
+Qatar,26529
+Djibouti,24541
+Comoros,24180
+Solomon Islands,21098
+North Macedonia,20114
+Slovenia,19147
+Kosovo,18604
+Fiji,17943
+Trinidad and Tobago,17814
+Bahrain,17501
+Latvia,17024
+Guyana,16375
+R union,14071
+Estonia,13639
+Mauritius,13437
+Cyprus,12820
+Suriname,11133
+Mayotte,10641
+Cape Verde,9976
+Bhutan,9703
+Western Sahara,9461
+Vanuatu,9398
+French Guiana,7503
+Maldives,7337
+Belize,7186
+Montenegro,6965
+Macau,6921
+Luxembourg,6589
+S o Tom  and Pr ncipe,6318
+Brunei,6147
+Samoa,5975
+Bahamas,4666
+Malta,4664
+Iceland,4572
+Guadeloupe,4467
+New Caledonia,4158
+French Polynesia,3881
+Martinique,3524
+Kiribati,3510
+Barbados,3046
+Guam,2795
+Tonga,2454
+Federated States of Micronesia,2357
+Curaçao,2167
+Saint Lucia,2064
+Grenada,1990
+Seychelles,1642
+Saint Vincent and the Grenadines,1348
+United States Virgin Islands,1147
+Jersey,1134
+Antigua and Barbuda,1129
+Dominica,965
+Marshall Islands,829
+Faroe Islands,814
+Greenland,810
+American Samoa,788
+Aruba,764
+Isle of Man,717
+Cayman Islands,679
+Guernsey,613
+Northern Mariana Islands,608
+Saint Kitts and Nevis,578
+Andorra,567
+Turks and Caicos Islands,559
+Bermuda,497
+Saint Martin,488
+Liechtenstein,358
+Gibraltar,350
+Nauru,346
+Sint Maarten,336
+Monaco,322
+Caribbean Netherlands,286
+Cook Islands,277
+Palau,273
+Tuvalu,263
+British Virgin Islands,237
+San Marino,202
+Anguilla,150
+Wallis and Futuna,138
+Saint Barth lemy,88
+Saint Pierre and Miquelon,45
+Falkland Islands,42
+"Saint Helena, Ascension and Tristan da Cunha",41
+Montserrat,40
+Tokelau,35
+Niue,27
+
+
 Country,mean,median,<10k,10-100k,100k-1M,1M+
 Afghanistan,1744.0,734.0,97.6,2.4,0.1,0.0
 Albania,30524.0,15363.0,41.0,54.2,4.7,0.1
@@ -129,7 +368,7 @@ Qatar,146730.0,83680.0,12.0,45.3,41.7,1.0
 Romania,50009.0,23675.0,32.1,58.5,9.1,0.3
 Russia,27162.0,5431.0,72.8,23.8,3.1,0.2
 Rwanda,4188.0,1266.0,92.8,6.9,0.3,0.0
-São Tome and Príncipe,4029.0,1702.0,92.4,7.3,0.2,0.0
+Sao Tome and Principe,4029.0,1702.0,92.4,7.3,0.2,0.0
 Saudi Arabia,68697.0,15495.0,46.4,44.4,8.2,1.0
 Senegal,4702.0,1570.0,91.4,8.3,0.3,0.0
 Serbia,31705.0,14954.0,41.7,52.9,5.3,0.1
