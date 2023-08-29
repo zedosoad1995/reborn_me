@@ -44,6 +44,8 @@ for row in rows:
     ratios_1perc.append((row[0], log_normal_percentile(
         float(row[1]), float(row[2]), 0.99) / 6979481))
 
+print(ratios_1perc)
+
 with open('data/1perc_ration.csv', 'w', newline='') as f:
     writer = csv.writer(f)
     writer.writerows(ratios_1perc)

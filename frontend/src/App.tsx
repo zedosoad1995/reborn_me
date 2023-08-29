@@ -97,6 +97,7 @@ function App() {
         setWealth("$" + wealth.toFixed(1));
         setWealthPerc((perc * 100).toPrecision(3) + "%");
       });
+
       setCountry(country);
       setRarity(rarity);
       setRate((rate * 100).toPrecision(2) + "%");
