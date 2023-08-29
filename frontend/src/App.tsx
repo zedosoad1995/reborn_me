@@ -111,13 +111,13 @@ function App() {
     <div className="h-full p-6">
       <div className="h-full flex items-center justify-center flex-col">
         <div className="text-3xl mb-2 text-center">You will be reborn in</div>
-        {isLoading && <div className="h-[120px]"></div>}
+        {isLoading && <div className="h-[176px]"></div>}
         {!isLoading && (
           <>
             <div className="text-2xl text-[#ed143d] min-h-[32px] font-bold text-center">
               {country}
             </div>
-            <div className="min-h-[24px] text-center text-sm">
+            <div className="min-h-[24px] text-center mt-2">
               You had a {rate} chance (Rarity: {rarity})
             </div>
             <div className="mt-6 w-full bg-[#ffffff20] py-4 px-4 max-w-[500px]">
